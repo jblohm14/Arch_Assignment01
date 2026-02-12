@@ -139,11 +139,11 @@ From these results I was able to plot a trend line for each file.
 
 The trend line plot for this file shown below indicates that the file was deteriorating at one point however, a single change increased the complexity significantly but ultimately provided stability. 
 
-![simd-maskedsve.h]([https://mailuc-my.sharepoint.com/:i:/r/personal/blohmjd_mail_uc_edu/Documents/Architecture/simd-maskedsve.jpg?csf=1&web=1&e=qX1cQX](https://mailuc-my.sharepoint.com/:i:/g/personal/blohmjd_mail_uc_edu/IQADwQMITZB1RZUP0X9crN-4AdrRWONf7yYUeW5rVZrIcqs?e=mi6LkA))
+![simd-maskedsve.h](./simd-maskedsve.jpg)
 
 Conversely, this trend line indicates a recent refactor. At a moment in time the complexity decreased momentarily but this did not prevent complexity from rising still. 
 
-![fftw-bench.c]([https://mailuc-my.sharepoint.com/:i:/r/personal/blohmjd_mail_uc_edu/Documents/Architecture/fftw-bench.jpg?csf=1&web=1&e=A3a2t6](https://mailuc-my.sharepoint.com/:i:/g/personal/blohmjd_mail_uc_edu/IQCz5Z0_IE1ER5nVMMxuoNkYASn-G5SXYXunmvPWHzXto-0?e=fWSBXX))
+![fftw-bench.c](./fftw-bench.jpg)
 
 ⭐ I would not recommend these files for further inspection or refactoring effort. While changes to these files post release is an indicator of technical debt being paid, the relative complexities and change frequency of both files shows that the cost was is expensive.
 
